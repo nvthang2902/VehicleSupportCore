@@ -1,18 +1,14 @@
 [
   {
-    "Id": 1,
     "TypeName": "Boards"
   },
   {
-    "Id": 2,
     "TypeName": "Hats"
   },
   {
-    "Id": 3,
     "TypeName": "Boots"
   },
   {
-    "Id": 4,
     "TypeName": "Gloves"
   }
 ]
