@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleSupport", "VehicleSu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{5425ACDE-4965-4332-BE6D-B7577C2C23CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastruture\Infrastructure.csproj", "{8C857631-3DDA-4E8D-9579-EAA26E3EF333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastruture", "Infrastruture\Infrastruture.csproj", "{8C857631-3DDA-4E8D-9579-EAA26E3EF333}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B75E1A58-299A-44C2-A51A-EDFB5C040581}"
 	ProjectSection(SolutionItems) = preProject

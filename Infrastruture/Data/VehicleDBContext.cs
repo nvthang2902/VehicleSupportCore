@@ -2,7 +2,7 @@
 using Core.Entities;
 using System.Reflection;
 
-namespace Infrastructure.Data
+namespace Infrastruture.Data
 {
     public class VehicleDBContext : DbContext
     {

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Data
+namespace Infrastruture.Data
 {
     public class VehicleDBContextSeed
     {

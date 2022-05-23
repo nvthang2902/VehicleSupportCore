@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Config
+namespace Infrastruture.Config
 {
     public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
