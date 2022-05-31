@@ -34,11 +34,6 @@ namespace Core.Specifications
             }
         }
 
-        private void ApplyPaging(int v)
-        {
-            throw new NotImplementedException();
-        }
-
         public ProductsWithTypesAndBrandsSpecification(int id) : base(x => x.Id == id)
         {
             AddInclude(x => x.ProductType);
