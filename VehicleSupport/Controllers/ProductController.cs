@@ -34,19 +34,19 @@ namespace VehicleSupport.Controllers
         }
         [HttpGet]
         public async Task<ActionResult<Pagination<ProductDto>>> GetProducts(
-            [FromQuery]ProductSpecParams productParams)
+            [FromQuery] ProductSpecParams productParams)
         {
             var spec = new ProductsWithTypesAndBrandsSpecification(productParams);
-
             var countSpec = new ProductWithFiltersForCountSpecification(productParams);
 
             var totalItems = await _productRepo.CountAsync(countSpec);
 
             var products = await _productRepo.ListAsync(spec);
-            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductDto>>(products);
 
-            return Ok(new Pagination<ProductDto>(productParams.PageIndex,productParams.PageSize,totalItems,data));
+            var data = _mapper.Map<IReadOnlyList<ProductDto>>(products);
 
+            return Ok(new Pagination<ProductDto>(productParams.PageIndex,
+                productParams.PageSize, totalItems, data));
         }
         [HttpGet("{id}")]
         //public async Task<ActionResult<Product>> GetProduct(int id)
